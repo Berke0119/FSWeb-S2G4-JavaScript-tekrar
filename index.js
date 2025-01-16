@@ -153,6 +153,8 @@ for (const sayi of sayilar) {
   }
 }
 
+
+
 for (const [sayi, tekrarSayisi] of Object.entries(tekrarSayilari)) {
   if (tekrarSayisi > 1) {
     tekraredensayilar.push(`${sayi} sayısı ${tekrarSayisi} kere tekrar edilmiştir`);
